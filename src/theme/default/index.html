@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<!-- Template by https://www.html.am/templates/downloads/view-source.cfm?template=layout-templates/2-column-left-menu-header-footer.cfm -->
+<html>
+  {{include "include/header.html"}}
+  {{include "include/top.html"}}
+  <body>		
+    <div class="content">
+      <div class="left_panel">
+        <h2>Posts</h2>
+        <nav>
+          <ul>
+            {{for p in all_posts}}
+            <li><a href="{{p.url}}">{{p.title}}<time
+                   datetime="{{p.year}}-{{p.month}}-{{p.day}}:00:00+02:00">{{p.year}}-{{p.month_name}}-{{p.day}}</time></a></li>
+            {{endfor}}
+          </ul>
+        </nav>
+      </div>
+      <div class="right_panel">
+        <main>
+          {{include "$(root_dir)/index.md"}}
+        </main>
+      </div>
+    </div>
+    {{include "include/footer.html"}}
+  </body>
+</html>
