@@ -1,0 +1,19 @@
+<!DOCTYPE HTML>
+<html>
+  {{include "include/header.html"}}
+  <body>
+    <div class="content">
+      <main>
+      {{include "include/top.html"}}
+      <h2>{{post.title}}
+        <time datetime="{{post.year}}-{{post.month}}-{{post.day}}:00:00+02:00">{{post.year}}-{{post.month_name}}-{{post.day}}</time>
+      </h2>
+      <article>
+        {{post.body}}
+        <audio controls="controls" src="assets/audio/AUDIO-{{post.year}}-{{post.month}}-{{post.day}}.m4a">Your browser does not support the HTML5 autio element.</audio>
+      </article>
+      </main>
+    </div>
+    {{include "include/footer.html"}}
+  </body>
+</html>
