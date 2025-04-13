@@ -1,32 +1,87 @@
 <!DOCTYPE HTML>
 <html>
   <head>
-	<meta charset="UTF-8">
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-	<link rel="stylesheet" href="assets/default.css">
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/0.0.1/prism.min.js"></script>
-	<title>Evangelische Shalom Gemeinde - contact</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <link rel="stylesheet" href="assets/default.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/0.0.1/prism.min.js"></script>
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      function setLang(lang) {
+        localStorage.setItem("language", lang);
+        document.querySelectorAll('[data-lang]').forEach(el => {
+          el.style.display = el.getAttribute("data-lang") === lang ? "block" : "none";
+        });
+
+        //mark the selected language link
+        document.querySelectorAll('[data-setlang]').forEach(link => {
+          link.style.fontWeight = link.getAttribute("data-setlang") === lang ? "bold" : "normal";
+        });
+
+      }
+
+      // Load preference on page load
+      const savedLang = localStorage.getItem("language") || "de";
+      setLang(savedLang);
+
+      // Add click listeners to all language links
+      document.querySelectorAll("#languageLinks a").forEach(link => {
+        link.addEventListener("click", (e) => {
+          e.preventDefault();
+          const lang = link.getAttribute("data-setlang");
+          setLang(lang);
+        });
+      });
+    });
+  </script>
+
+  <title>Evangelische Shalom Gemeinde - contact</title>
 </head>
 
   <body>
     <div class="content">
       <header>
-  <div> <h1>Evangelische Shalom Gemeinde</h1></div>
-  <div class="header_links"><a href="index.html">HOME</a> | <a href="contact.html">KONTAKT</a> | <a
-  href=https://www.instagram.com/shalom.frankfurt/>INSTAGRAM</a> 
+  <span id="languageLinks" class=language-bar>
+  <a href="#" data-setlang="de">Deutsch</a> |
+  <a href="#" data-setlang="pt-br">Português</a>
+</span>
 
+
+  <div> <h1>Evangelische Shalom Gemeinde</h1></div>
+  <div class="header_links">
+<div data-lang="de">
+<a href="index.html">HOME</a> | <a href="contact.html">KONTAKT</a> | <a
+  href=https://www.instagram.com/shalom.frankfurt/>INSTAGRAM</a> 
 </div>
+
+
+<div data-lang="pt-br">
+<a href="index.html">HOME</a> | <a href="contact.html">CONTATO</a> | <a
+  href=https://www.instagram.com/shalom.frankfurt/>INSTAGRAM</a> 
+</div>
+
+
+  </div>
 </header>
 
       <main>
         <article>
-          <h1>Kontakt / Contato</h1><p>Igreja Evangélica Alemã/Brasileira <br>Deutsch/Brasilianische Freichristliche evangelische Shalom-Gemeinde e.V.</p><p>Sontraer Str. 2 - 2.OG<br>60386 - Frankfurt-Fechenheim</p><p>Telefon / Telefone:<br>(0049) 69-568 07 116<br>(0049) 178-414 67 05</p><p>IBAN: DE14 5206 0410 0004 0053 68 BIG: GENODEF 1EK1</p><p>https://goo.gl/maps/u9MuB<br><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2834.002881234793!2d8.743637!3d50.131281!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47bd0e45c56ee3ff%3A0xb8c0e9d284e04f56!2sSontraer%20Str.%202%2C%2060386%20Frankfurt%20am%20Main!5e1!3m2!1sde!2sde!4v1730136608958!5m2!1sde!2sde" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p>
+          <p><div data-lang="de"></p><h1>Kontakt</h1><p>Deutsch/Brasilianische Freichristliche evangelische Shalom-Gemeinde e.V.</p><p></div></p><p><div data-lang="pt-br"></p><h1>Contato</h1><p>Igreja Evangélica Alemã/Brasileira </p><p></div></p><p>Sontraer Str. 2 - 2.OG<br>60386 - Frankfurt-Fechenheim</p><p>Telefon / Telefone:<br>(0049) 69-568 07 116<br>(0049) 178-414 67 05</p><p>IBAN: DE14 5206 0410 0004 0053 68 BIG: GENODEF 1EK1</p><p>https://goo.gl/maps/u9MuB<br><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2834.002881234793!2d8.743637!3d50.131281!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47bd0e45c56ee3ff%3A0xb8c0e9d284e04f56!2sSontraer%20Str.%202%2C%2060386%20Frankfurt%20am%20Main!5e1!3m2!1sde!2sde!4v1730136608958!5m2!1sde!2sde" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p>
         </article>
       </main>
     </div>
     <footer>
-  <div><a href="index.html">HOME</a> | <a href="contact.html">KONTAKT</a> | <a
+  <div>
+<div data-lang="de">
+<a href="index.html">HOME</a> | <a href="contact.html">KONTAKT</a> | <a
   href=https://www.instagram.com/shalom.frankfurt/>INSTAGRAM</a> 
+</div>
+
+
+<div data-lang="pt-br">
+<a href="index.html">HOME</a> | <a href="contact.html">CONTATO</a> | <a
+  href=https://www.instagram.com/shalom.frankfurt/>INSTAGRAM</a> 
+</div>
 
 </div>
   <div>

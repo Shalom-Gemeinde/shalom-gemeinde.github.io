@@ -1,4 +1,6 @@
 
+<div data-lang="de">
+
 ## Wer sind wir?
 Wir sind eine christliche Gemeinde, rechtmässig eingetragen als Gemeinde um Menschen portugiesischer, deutscher und anderen Nationalitäten sprechender Sprache aufzunehmen.
 
@@ -7,7 +9,9 @@ Wir glauben an einen einigen Gott, der Himmel und Erde geschaffen hat und alles 
 
 ## Was predigen wir?
 Wir predigen das Wort Gottes, die heilsbringende Botschaft, das erfüllte und wahre Leben, errungen durch Jesu Tod und Auferstehung, Himmelfahrt und Antritt auf den himmlischen Thron. In Seinem Namen verkündigen wir die Rettung, die Erlösung, Heilung (auch innere Heilung) und Befreiung. Wir predigen die Heligung, ohne die niemand Gott sehen wird. Wir machen Jüngerschaft, damit die Menschen zum vollem Maß der Fülle Christi gelangen (Epheser 4,13), damit sie lebendige Glieder am Leib Christi werden, in der vollen Salbung, wo einer des anderen Glied ist. Wir wollen jeden Menschen vollkommen in Christus darstellen, als erwachsene Kinder Gottes, befähigt vom Heiligen Geist geleitet zu werden, gemäß was ihnen im Wort Gottes offenbart wird - höchste Autorität für den Glauben und den Wandel.
+</div>
 
+<div data-lang="pt-br">
 
 ## Quem somos?
 
@@ -20,4 +24,4 @@ Nós cremos num Deus Único, que criou os céus e a terra e tudo o que eles cont
 ## O que pregamos?
 
 Pregamos a salvação integral, a Vida Plena conquistada por Jesus em Sua Morte, Ressurreição, e Sua Ascenção ao Trono Celestial. Em Seu Nome proclamamos Salvação, Redenção, Cura (tb interior) e Libertação. Pregamos a santificação, sem a qual ninguém verá a Deus. Discipulamos as pessoas para que alcancem a estatura de Cristo (Ef.4,13), para que sejam membros vivos e cheios de unção no Corpo de Cristo, onde um é membro do outro. Queremos apresentar cada pessoa perfeita em Cristo, sendo filhos adultos de Deus, podendo ser guiados pelo Espirito Santo, segundo lhes é revelado na Palavra de Deus - Autoridade máxima para a Fé e prática.
-
+</div>

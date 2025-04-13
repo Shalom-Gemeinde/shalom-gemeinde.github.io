@@ -91,6 +91,12 @@ a {
   text-decoration: none; 
 }
 
+.language-bar {
+  float: right;
+  margin: 2px;
+  padding: 5px;
+}
+
 a:hover { text-decoration: underline;}
 
 time {

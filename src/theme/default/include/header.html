@@ -1,7 +1,37 @@
 <head>
-	<meta charset="UTF-8">
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-	<link rel="stylesheet" href="assets/default.css">
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/0.0.1/prism.min.js"></script>
-	<title>{{site.name}} - {{page.title}}</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <link rel="stylesheet" href="assets/default.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/0.0.1/prism.min.js"></script>
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      function setLang(lang) {
+        localStorage.setItem("language", lang);
+        document.querySelectorAll('[data-lang]').forEach(el => {
+          el.style.display = el.getAttribute("data-lang") === lang ? "block" : "none";
+        });
+
+        //mark the selected language link
+        document.querySelectorAll('[data-setlang]').forEach(link => {
+          link.style.fontWeight = link.getAttribute("data-setlang") === lang ? "bold" : "normal";
+        });
+
+      }
+
+      // Load preference on page load
+      const savedLang = localStorage.getItem("language") || "de";
+      setLang(savedLang);
+
+      // Add click listeners to all language links
+      document.querySelectorAll("#languageLinks a").forEach(link => {
+        link.addEventListener("click", (e) => {
+          e.preventDefault();
+          const lang = link.getAttribute("data-setlang");
+          setLang(lang);
+        });
+      });
+    });
+  </script>
+
+  <title>{{site.name}} - {{page.title}}</title>
 </head>

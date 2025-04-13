@@ -1,7 +1,23 @@
-# Kontakt / Contato
+
+<div data-lang="de">
+
+# Kontakt
+
+Deutsch/Brasilianische Freichristliche evangelische Shalom-Gemeinde e.V.
+
+</div>
+
+
+<div data-lang="pt-br">
+
+# Contato
 
 Igreja Evangélica Alemã/Brasileira 
-Deutsch/Brasilianische Freichristliche evangelische Shalom-Gemeinde e.V.
+
+</div>
+
+
+
 
 Sontraer Str. 2 - 2.OG
 60386 - Frankfurt-Fechenheim
