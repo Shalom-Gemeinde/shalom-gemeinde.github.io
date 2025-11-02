@@ -1,0 +1,134 @@
+
+output:
+  filename: src/posts/audio-%date%-predige.md
+  template: |
+    {{"%title-de%"}}
+
+    ### %title-ptbr%
+
+files:
+  - audio: src/posts/assets/audio/AUDIO-2025-04-27.m4a
+    date: 20250427
+    title-de: Heiligkeit
+    title-ptbr: Santidade
+    brief-de:
+    brief-ptbr:
+
+  - audio: src/posts/assets/audio/AUDIO-2025-05-13.m4a
+    date: 20250513
+    title-de: Dankbarkeit
+    title-ptbr: Gratidão
+    brief-de:
+    brief-ptbr:
+
+  - audio: src/posts/assets/audio/AUDIO-2025-06-01.m4a
+    date: 20250601
+    title-de: Wenn Gott für uns ist, wer ist gegen uns ?
+    title-ptbr: Se Deus é por nós, quem será contra nós ?
+    brief-de:
+    brief-ptbr:
+
+  - audio: src/posts/assets/audio/AUDIO-2025-06-08.m4a
+    date: 20250608
+    title-de: Pfingsten
+    title-ptbr: Pentecostes
+    brief-de:
+    brief-ptbr:
+
+  - audio: src/posts/assets/audio/AUDIO-2025-06-15.m4a
+    date: 20250615
+    title-de: Gottes Liebe für uns
+    title-ptbr: O amor de Deus por nós
+    brief-de:
+    brief-ptbr:
+
+  - audio: src/posts/assets/audio/AUDIO-2025-06-22.m4a
+    date: 20250622
+    title-de: Was sollen wir tun, wenn sich der Feind gegen uns erhebt?
+    title-ptbr: O que fazer quando o inimigo se levanta cotra nós ?
+    brief-de:
+    brief-ptbr:
+
+  - audio: src/posts/assets/audio/AUDIO-2025-06-29.m4a
+    date: 20250629
+    title-de: Ist hier schon Rom ?
+    title-ptbr: Aqui já é Roma ?
+    brief-de:
+    brief-ptbr:
+
+  - audio: src/posts/assets/audio/AUDIO-2025-07-06.m4a
+    date: 20250706
+    title-de: Der Herr segne und behüte dich
+    title-ptbr: O Senhor te abençoa e te guarde
+    brief-de:
+    brief-ptbr:
+
+  - audio: src/posts/assets/audio/AUDIO-2025-07-13.m4a
+    date: 20250713
+    title-de: Lass deine Tage hier auf der Erde vor Gott zählen.
+    title-ptbr: Faça seus dias na Terra valerem diante de Deus.
+    brief-de:
+    brief-ptbr:
+
+  - audio: src/posts/assets/audio/AUDIO-2025-07-20.m4a
+    date: 20250720
+    title-de: Unsere Haltung gegenüber Probleme und schwierigen Situationen
+    title-ptbr: Nossa atitude em relação a problemas e situações difíceis
+    brief-de:
+    brief-ptbr:
+
+  - audio: src/posts/assets/audio/AUDIO-2025-09-14.m4a
+    date: 20250914
+    title-de: Gottverbundenheit
+    title-ptbr: Conectado com Deus
+    brief-de:
+    brief-ptbr:
+
+  - audio: src/posts/assets/audio/AUDIO-2025-09-21.m4a
+    date: 20250921
+    title-de: Es ist alles eine Frage der Entscheidung
+    title-ptbr: É tudo uma questão de escolha.
+    brief-de:
+    brief-ptbr:
+
+  - audio: src/posts/assets/audio/AUDIO-2025-09-28.m4a
+    date: 20250928
+    title-de: Jesus im wirklichen Leben erleben
+    title-ptbr: Vivenciando Jesus na vida real
+    brief-de:
+    brief-ptbr:
+
+  - audio: src/posts/assets/audio/AUDIO-2025-10-05.m4a
+    date: 20251005
+    title-de: Die Rettung des verlorenen Schafes
+    title-ptbr: O Resgate da ovelha perdida
+    brief-de:
+    brief-ptbr:
+
+  - audio: src/posts/assets/audio/AUDIO-2025-10-13.m4a
+    date: 20251013
+    title-de: Wir sollten uns an alles erinnern, was Gott uns gibt
+    title-ptbr: Lembrando de tudo que Deus nos dá
+    brief-de:
+    brief-ptbr:
+
+  - audio: src/posts/assets/audio/AUDIO-2025-10-19.m4a
+    date: 20251019
+    title-de: Der Gerechte wird aus Glauben leben.
+    title-ptbr: O justo viverá pela fé
+    brief-de:
+    brief-ptbr:
+
+  - audio: src/posts/assets/audio/AUDIO-2025-10-26.m4a
+    date: 20251026
+    title-de: Wo sind diejenigen, die dich beschuldigt haben?
+    title-ptbr: Onde estão os que te acusavam ?
+    brief-de:
+    brief-ptbr:
+
+  - audio: src/posts/assets/audio/AUDIO-2025-05-04.m4a
+    date:  20250504
+    title-de: Jesus kommt, um dich zu treffen.
+    title-ptbr: Jesus vai ao seu encontro
+    brief-de:
+    brief-ptbr:
