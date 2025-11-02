@@ -1,3 +1,3 @@
 {{"Es ist alles eine Frage der Entscheidung"}}
 
-### Tudo é uma questão de decisão
+### É tudo uma questão de escolha.

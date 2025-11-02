@@ -1,0 +1,99 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+  <meta charset="UTF-8">
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <link rel="stylesheet" href="assets/default.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/0.0.1/prism.min.js"></script>
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      function setLang(lang) {
+        localStorage.setItem("language", lang);
+        document.querySelectorAll('[data-lang]').forEach(el => {
+          el.style.display = el.getAttribute("data-lang") === lang ? "block" : "none";
+        });
+
+        //mark the selected language link
+        document.querySelectorAll('[data-setlang]').forEach(link => {
+          link.style.fontWeight = link.getAttribute("data-setlang") === lang ? "bold" : "normal";
+        });
+
+      }
+
+      // Load preference on page load
+      const savedLang = localStorage.getItem("language") || "de";
+      setLang(savedLang);
+
+      // Add click listeners to all language links
+      document.querySelectorAll("#languageLinks a").forEach(link => {
+        link.addEventListener("click", (e) => {
+          e.preventDefault();
+          const lang = link.getAttribute("data-setlang");
+          setLang(lang);
+        });
+      });
+    });
+  </script>
+
+  <title>Evangelische Shalom Gemeinde - Der Herr segne und behüte dich</title>
+</head>
+
+  <body>
+    <div class="content">
+      <main>
+      <header>
+  <span id="languageLinks" class=language-bar>
+  <a href="#" data-setlang="de">Deutsch</a> |
+  <a href="#" data-setlang="pt-br">Português</a>
+</span>
+
+
+  <div> <h1>Evangelische Shalom Gemeinde</h1></div>
+  <div class="header_links">
+<div data-lang="de">
+<a href="index.html">HOME</a> | <a href="contact.html">KONTAKT</a> | <a
+  href=https://www.instagram.com/shalom.frankfurt/>INSTAGRAM</a> 
+</div>
+
+
+<div data-lang="pt-br">
+<a href="index.html">HOME</a> | <a href="contact.html">CONTATO</a> | <a
+  href=https://www.instagram.com/shalom.frankfurt/>INSTAGRAM</a> 
+</div>
+
+
+  </div>
+</header>
+
+      <h2>Der Herr segne und behüte dich
+        <time datetime="2025-07-06:00:00+02:00">2025-jul-06</time>
+      </h2>
+      <article>
+        <h3>O Senhor te abençoa e te guarde</h3>
+        <audio controls="controls" src="assets/audio/AUDIO-2025-07-06.m4a">Your browser does not support the HTML5 autio element.</audio>
+      </article>
+      </main>
+    </div>
+    <footer>
+  <div>
+<div data-lang="de">
+<a href="index.html">HOME</a> | <a href="contact.html">KONTAKT</a> | <a
+  href=https://www.instagram.com/shalom.frankfurt/>INSTAGRAM</a> 
+</div>
+
+
+<div data-lang="pt-br">
+<a href="index.html">HOME</a> | <a href="contact.html">CONTATO</a> | <a
+  href=https://www.instagram.com/shalom.frankfurt/>INSTAGRAM</a> 
+</div>
+
+</div>
+  <div>
+    Sontraer Str. 2 - 2.OG
+    60386 - Frankfurt-Fechenheim
+  </div>
+  <div>Generated with <a href="http://github.com/marciovmf/static">static</a>. </div>
+</footer>
+
+  </body>
+</html>
